@@ -49,6 +49,35 @@ h3 {
     line-height: 3em;
 }
 
+label {
+    font-size: .5em;
+    color: black;
+    font-family: sans-serif;
+}
+
+input,
+email {
+    height: 55px;
+    width: 320px;
+}
+
+placeholder {
+    font-size: .5em;
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+}
+
+type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 55px;
+    border: 2px solid gray;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;*/
