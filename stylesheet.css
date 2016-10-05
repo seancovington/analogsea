@@ -20,16 +20,27 @@ img {
 }
 
 .big-box {
+    display: block;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
     font-family: 'Raleway', sans-serif;
     font-size: 2.5em;
     color: gray;
     font-weight: lighter;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    width: 400px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: #ffffff;
+}
+
+ul,
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3em;
 }
 
 
