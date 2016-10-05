@@ -13,10 +13,21 @@
         <img src="Images/Analog%20Sea.png">
     </div>
     <div class="big-box">
-        <form class="signup">
+        <form class="signup" action="/signup/" method="post">
             <ul>
-                <p>Sign up</p>
+                <h3>Sign up</h3>
             </ul>
+            <fieldset name="Email">
+                <label for="Email">Email</label>
+                <input placeholder="foo@bar.com" type="text" required/>
+            </fieldset>
+            <fieldset name="Password">
+                <label for="password">Password</label>
+                <input placeholder="1234passw0rd" type="text" required />
+            </fieldset>
+            <fieldset>
+                <button type='submit'>Submit</button>
+            </fieldset>
         </form>
     </div>
 </body>
