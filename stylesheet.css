@@ -50,27 +50,51 @@ h3 {
 }
 
 label {
-    font-size: .5em;
+    display: block;
+    font-size: .4em;
     color: black;
     font-family: sans-serif;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+input {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 input,
 email {
+    font-size: .4em;
     height: 55px;
     width: 320px;
+    /*    padding: 15px;*/
+    border: 2px solid gray;
+    border-radius: 2px;
 }
 
-placeholder {
-    font-size: .5em;
-    color: gray;
+button {
+    width: 355px;
+    height: 55px;
+    background-color: green;
+    color: white;
+    font-size: .6em;
     font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+submit:hover {
+    color: darkgreen;
 }
 
 type {
+    /*
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+flex-direction: column;
+justify-content: center;
+*/
     width: 320px;
     height: 55px;
     border: 2px solid gray;
