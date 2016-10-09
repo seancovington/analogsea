@@ -22,7 +22,7 @@ img {
     height: 75px;
     width: 356px;
     margin-top: 35px;
-    Margin-bottom: 35px;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -66,7 +66,7 @@ input {
 }
 
 input,
-email {
+.email {
     font-size: .4em;
     height: 55px;
     width: 320px;
@@ -90,7 +90,7 @@ button {
     background-color: darkgreen;
 }
 
-type {
+.type {
     width: 320px;
     height: 55px;
     border: 2px solid gray;
