@@ -28,7 +28,6 @@ img {
 }
 
 .big-box {
-    /*    display: block;*/
     width: 400px;
     padding-left: 40px;
     padding-right: 40px;
@@ -36,7 +35,6 @@ img {
     margin-right: auto;
     margin-top: 35px;
     background-color: #ffffff;
-    /*    font-family: 'Raleway', sans-serif;*/
     font-size: 2.5em;
     color: gray;
     font-weight: lighter;
@@ -88,10 +86,8 @@ button {
     margin-bottom: 15px;
 }
 
-.submit button:hover {
-    background-color: green;
-    /* Green */
-    color: darkgreen;
+.Submit:hover {
+    background-color: darkgreen;
 }
 
 type {
@@ -99,7 +95,6 @@ type {
     height: 55px;
     border: 2px solid gray;
     padding: 15px;
-    /*    font-family: 'Raleway', sans-serif;*/
 }
 
 .forgot {
@@ -113,8 +108,6 @@ type {
 }
 
 .already {
-    /*    font-family: 'Raleway',
-    sans-serif;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,6 +119,7 @@ type {
     margin-top: 15px;
 }
 
-
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;*/
+.login {
+    color: white;
+    margin-left: 5px;
+}
